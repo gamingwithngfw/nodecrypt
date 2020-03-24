@@ -1,9 +1,15 @@
-#list is currently empty.
-#FQDN list which is not directly related to gaming, but still breaks when ssl decrypted
+#List with urls not directly related to gaming, but still breaks when ssl decrypted, mostly for my own use.
 
 #Social apps that crash or timeout
 
-#cdns that crash or timeout
+#cdns that crash or timeout - currently testing. (Risky)
+*.r.cloudfront.net
+*.compute-1.amazonaws.com
+*.bc.googleusercontent.com
+*.deploy.static.akamaitechnologies.com
+*.e100.net
+*.sl-reverse.com
+
 
 #Entry x
 #Entry y
