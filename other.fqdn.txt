@@ -1,0 +1,11 @@
+#list is currently empty.
+#FQDN list which is not directly related to gaming, but still breaks when ssl decrypted
+
+#Social apps that crash or timeout
+
+#cdns that crash or timeout
+
+#Entry x
+#Entry y
+#Entry z
+

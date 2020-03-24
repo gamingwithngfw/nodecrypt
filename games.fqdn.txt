@@ -1,0 +1,10 @@
+#List is currently empty.
+#FQDNs related to gaming which breaks when ssl decrypted
+
+#Games that crash or timeout
+
+#Connected apps and support systems that crash or timeout
+
+#Entry x
+#Entry y
+#Entry z
