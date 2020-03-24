@@ -1,2 +1,2 @@
 # nodecrypt
-List of urls that does not work with ssl forward decryption
+List of fqdn used by various apps and games that break when ssl decrypted
