@@ -5,6 +5,11 @@
 
 #Connected apps and support systems that crash or timeout
 
+#To not break content i Blizzard launcher (work in progress) 
+#App uses port 1119 -  Maybe make a spesific no-decrypt for this port?
+*.blizzard.com
+*.battle.net
+
 #Entry x
 #Entry y
 #Entry z
