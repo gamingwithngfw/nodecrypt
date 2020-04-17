@@ -4,25 +4,24 @@
 #Propagate a Dynamic Address group and use with Service group in a policy to permit traffic. This is usuallly SSL, which may break when decrypted
 #https://ipinfo.io/AS32590
 
-#For at logge på Steam og downloade indhold:
-#HTTP (TCP-fjernport 80) og HTTPS (443)
-#UDP-fjernport 27015-27030
-#TCP-fjernport 27015-27030
+#Info found @ https://support.steampowered.com/kb_article.php?ref=8571-GLVN-8711&l=danish
+#Login to steam and download content:
+#HTTP (TCP 80) og HTTPS (443) (usually covered by other policies)
+#UDP 27015-27030
+#TCP 27015-27030
 
-#Steam-klient
-#UDP-fjernport 27000--27100: Spiltrafik
-#UDP-lokal port 27031 og 27036: Streaming i hjemmet
-#TCP-lokal port 27036 og 27037: Streaming i hjemmet
-#UDP-fjernport 4380
+#Steam-client
+#UDP 27000--27100  Gaming traffic
+#UDP 27031 & 27036 Streaming at home
+#TCP 27036 og 27037 Streaming at home
+#UDP 4380
 
-#Dedikerende eller lyttende servere
-#TCP-lokal port 27015 (standardindstilling): SRCDS Rcon-port
-#UDP-lokal port 27015 (standardindstilling): Spiltrafik
+#Servers (dedicated or ad hoc)
+#TCP 27015 SRCDS Rcon-port
+#UDP 27015 Gaming traffic (standard port)
 
-#Steamworks P2P-netværk og Steam-stemmechat
-#UDP-fjernport 3478
-#UDP-fjernport 4379
-#UDP-fjernport 4380
+#Steamworks P2P & Steam-voip
+#UDP 3478, 4379, 4380
 
 #FQDN
 #*.steampowered.com
