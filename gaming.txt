@@ -10,7 +10,7 @@
 *.blizzard.com
 *.battle.net
 
-#Entry Steam
+#Steam
 *.steampowered.com
 
 #Entry y
